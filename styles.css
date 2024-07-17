@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btnArea {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+  min-width: 200px;
+  width: auto;
+}
+button {
+  border: none;
+  border-radius: 2px;
+  padding: 1rem;
+  min-width: calc(200px / 2);
+  width: 180px;
+  margin: 10px 20px;
+  cursor: pointer;
+}
+#getBtn {
+  background: skyblue;
+}
+#clearBtn {
+  background: salmon;
+}
+#users {
+  border: 2px solid #ddd;
+  border-radius: 3px;
+  border-collapse: collapse;
+  width: 80vw;
+  max-width: 800px;
+}
+thead {
+  background: #eee;
+}
+th,
+td {
+  width: calc(80vw / 4);
+  text-align: center;
+}
